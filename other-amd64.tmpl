@@ -19,7 +19,7 @@ manifests:
       os: linux
       variant: v7
   -
-    image: ${AMD64_REPO}/${AMD64_IMAGE}:{{#if build.tag}}{{trimPrefix "v" build.tag}}-{{/if}}linux-amd64
+    image: ${AMD64_REPO}/${AMD64_IMAGE}:{{#if build.tag}}{{trimPrefix "v" build.tag}}-{{/if}}
     platform:
       architecture: amd64
       os: linux
